@@ -1,0 +1,17 @@
+{
+    "name": "core-frontend",
+    "private": true,
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "build-dev": "tsc --incremental",
+        "build": "tsc",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "core-common": "workspace:*"
+    }
+}

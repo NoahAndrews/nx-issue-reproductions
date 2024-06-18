@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "name": "app-root",
+    "packageManager": "yarn@4.2.2",
+    "workspaces": [
+        "packages/frontend/*",
+        "packages/backend/*",
+        "packages/common/*"
+    ],
+    "scripts": {
+    },
+    "devDependencies": {
+        "nx": "19.3.0"
+    },
+    "volta": {
+        "node": "20.14.0"
+    }
+}

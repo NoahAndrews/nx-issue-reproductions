@@ -1,0 +1,24 @@
+.idea
+
+# dependencies
+**/node_modules
+
+# Yarn version files (not needed for our usage of Yarn workspaces)
+.yarn/versions
+
+# production
+**/build
+**/dist
+
+# yarn v2+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+!.yarn/patches
+.pnp.*
+
+# nx
+.nx/cache
+.nx/workspace-data
